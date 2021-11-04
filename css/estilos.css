@@ -1,0 +1,100 @@
+body{
+    background-image: url('../img/odon.jpg');
+}
+
+.jumbotron{
+    background-color: rgb(2, 6, 7);
+    /*background-color: deepskyblue;*/
+    color: white;
+}
+.panel-heading {
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+}
+
+.panel-body{
+    color: #269abc !important;
+}
+.navbar {
+    background-color: #080808;
+}
+
+.navbar-brand:link, .navbar-brand:visited{
+    color: deepskyblue !important;
+    
+}
+.navbar-brand:hover, .navbar-brand:active{
+    color: white !important;
+    
+}
+
+#navbar li a:link, #navbar li a:visited{
+    color: white !important;
+}
+#navbar li a:hover, #navbar li a:active{
+    color: skyblue !important;
+}
+
+.dropdown-menu{
+    
+    background-color: #2b2b2b;
+    
+    
+}
+
+.open > a {
+    background-color: #2b2b2b !important;
+}
+
+.sidebar {
+    background-color:  white;
+    margin-top: -5em ;
+    padding-top: 5em;   
+}
+.sidebar , .gg-elemento{
+    padding-bottom: 1em;
+}
+
+.gg-elemento:hover{
+    background-color: #2b2b2b !important;
+    color: deepskyblue;
+}
+
+.gg-elemento {
+    color: white;
+}
+
+#pacientes-publicidad {
+    background-color: #029ac4;
+    //029ac4
+    //394a66
+}
+
+.parte-publicidad-paciente{
+    background-color: deepskyblue;
+    color :white;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th{
+    background-color: #029ac4;
+    
+    
+}
+
+.table-striped>tbody>tr>td{
+    border:none;
+}
+
+
+
+tbody::before{
+    content: "-" !important;
+    display: block !important;
+    line-height: 1em !important;
+    color: transparent!important; 
+}
+
+.table>thead>tr>th {
+    border:none ;
+}
